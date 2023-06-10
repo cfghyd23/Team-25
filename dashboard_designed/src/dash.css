@@ -1,0 +1,43 @@
+.feature:hover {
+  transform: translate(5px, 5px),
+  transition: transform 0.2s ease-in-out;
+  };
+
+
+.field{
+  font-size:2em;
+
+}
+
+.cont{
+  width: 300px;
+  height: 200px;
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+  line-height: 1.4;
+  margin: 10px;
+}
+
+.Box1{
+  background-color: red;
+}
+.Box2{
+  background-color:plum;
+}
+.Box3{
+  background-color: paleturquoise;
+}
+.Box4{
+  background-color: palegreen;
+}
+.Box5{
+  background-color: palegoldenrod;
+}
+.Box6{
+  background-color: palevioletred;
+}
