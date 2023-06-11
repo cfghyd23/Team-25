@@ -15,7 +15,7 @@ const hoo = () => {
   console.log('Admin login');
   // Add your admin login logic here
 };
-const Sidebar = () => {
+const Sbar = () => {
   return (
     <div style={{ display: 'flex', height: '100vh', overflow: 'scroll initial' }}>
       <CDBSidebar textColor="#fff" backgroundColor="#333">
@@ -27,26 +27,9 @@ const Sidebar = () => {
 
         <CDBSidebarContent className="sidebar-content">
           <CDBSidebarMenu>
-          <p className="channel ">Information</p>
-            <NavLink exact to="/Medical" activeClassName="activeClicked" >
-              <CDBSidebarMenuItem icon="columns">Medical Assistance</CDBSidebarMenuItem>
-            </NavLink>
-            <NavLink exact to="/Sponsor" activeClassName="activeClicked">
-              <CDBSidebarMenuItem icon="table">Jobs</CDBSidebarMenuItem>
-            </NavLink>
-            <NavLink exact to="/profile" activeClassName="activeClicked">
-              <CDBSidebarMenuItem icon="user">Employment</CDBSidebarMenuItem>
-            </NavLink>
-            <NavLink exact to="/HousingNeeds" activeClassName="activeClicked" >
-              <CDBSidebarMenuItem icon="chart-line">Housing</CDBSidebarMenuItem>
-            </NavLink>
-
-            <NavLink exact to="/hero404" target="_blank" activeClassName="activeClicked">
-              <CDBSidebarMenuItem icon="exclamation-circle">Entities</CDBSidebarMenuItem>
-            </NavLink>
              <p className="channel">Channels</p>
-            <NavLink exact to="/Alum" target="_blank" activeClassName="activeClicked">
-              <CDBSidebarMenuItem >Alum</CDBSidebarMenuItem>
+            <NavLink exact to="/user" target="_blank" activeClassName="activeClicked">
+              <CDBSidebarMenuItem >General</CDBSidebarMenuItem>
             </NavLink>
             <NavLink exact to="/hero404" target="_blank" activeClassName="activeClicked">
               <CDBSidebarMenuItem >Young Adults</CDBSidebarMenuItem>
@@ -70,4 +53,4 @@ const Sidebar = () => {
   );
 };
 
-export default Sidebar;
+export default Sbar;
