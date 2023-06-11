@@ -1,15 +1,13 @@
 .feature:hover {
-  transform: translate(5px, 5px),
+  transform: translate(5px, 5px);
   transition: transform 0.2s ease-in-out;
-  };
-
-
-.field{
-  font-size:2em;
-
 }
 
-.cont{
+.field {
+  font-size: 2em;
+}
+
+.cont {
   width: 300px;
   height: 200px;
   background-color: #f2f2f2;
@@ -23,21 +21,21 @@
   margin: 10px;
 }
 
-.Box1{
+.Box1 {
   background-color: red;
 }
-.Box2{
-  background-color:plum;
+.Box2 {
+  background-color: plum;
 }
-.Box3{
+.Box3 {
   background-color: paleturquoise;
 }
-.Box4{
+.Box4 {
   background-color: palegreen;
 }
-.Box5{
+.Box5 {
   background-color: palegoldenrod;
 }
-.Box6{
+.Box6 {
   background-color: palevioletred;
 }

@@ -1,0 +1,77 @@
+{
+    "users":[{
+        "_id": {
+          "$oid": "648496e3673f1994d8c2eea4"
+        },
+        "medical history": 0,
+        "id": 0,
+        "housing": 1,
+        "sponsorship": 1
+      },
+      {
+        "_id": {
+          "$oid": "648496e3673f1994d8c2eea5"
+        },
+        "medical history": 1,
+        "id": 1,
+        "housing": 0,
+        "sponsorship": 0
+      },
+      {
+        "_id": {
+          "$oid": "648496e3673f1994d8c2eea6"
+        },
+        "medical history": 1,
+        "id": 0,
+        "housing": 1,
+        "sponsorship": 1
+      },
+      {
+        "_id": {
+          "$oid": "648496e3673f1994d8c2eea7"
+        },
+        "medical history": 0,
+        "id": 0,
+        "housing": 1,
+        "sponsorship": 1
+      },
+      {
+        "_id": {
+          "$oid": "648496e3673f1994d8c2eea8"
+        },
+        "medical history": 1,
+        "id": 0,
+        "housing": 1,
+        "sponsorship": 1
+      },
+      {
+        "_id": {
+          "$oid": "648496e3673f1994d8c2eea9"
+        },
+        "medical history": 0,
+        "id": 0,
+        "housing": 1,
+        "sponsorship": 1
+      },
+      {
+        "_id": {
+          "$oid": "648496e3673f1994d8c2eeaa"
+        },
+        "medical history": 1,
+        "id": 0,
+        "housing": 1,
+        "sponsorship": 1
+      },
+      {
+        "_id": {
+          "$oid": "648496e3673f1994d8c2eeab"
+        },
+        "medical history": 0,
+        "id": 0,
+        "housing": 1,
+        "sponsorship": 1
+      }]
+}
+
+
+
